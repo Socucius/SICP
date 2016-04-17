@@ -20,5 +20,5 @@
 (define (average x y)
   (/ (+ x y) 2))
 
-(square-iter 1.0 2.0)
+(square-iter 0.5 0.2)
 
