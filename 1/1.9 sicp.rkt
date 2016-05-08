@@ -1,12 +1,12 @@
 #lang racket
 
-; @descr the first process is linearly-recursive.
+; @desc the first process is linearly-recursive.
 ; (inc (+ 3 5))
 ;   (inc (+ 2 5))
 ;      (inc (+ 1 5))
 ;        (inc (+ 0 5))
 ;        (inc 5)
-;      (inc 6)    
+;      (inc 6)
 ;   (inc 7)
 ; (inc 8)
 ; 9
@@ -17,7 +17,7 @@
       (inc (+ (dec a) b))))
 
 
-; @descr the second process is linear-iterative
+; @desc the second process is linear-iterative
 ; (+ 3 6)
 ; (+ 2 7)
 ; (+ 1 8)

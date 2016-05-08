@@ -1,6 +1,6 @@
 #lang racket
 
-; @descr Newton's method for finding cube-roots
+; @desc Newton's method for finding cube-roots
 ; @param guess[int/float] first approximation
 ; @param x[int/float]     number
 ; @return [int/float]     number's cube-root
@@ -18,4 +18,3 @@
   (/ (+ (* guess 2) (/ x (expt guess 2))) 3))
 
 (cube-iter 2 4.0)
-

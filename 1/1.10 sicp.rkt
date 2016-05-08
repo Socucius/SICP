@@ -1,10 +1,10 @@
 #lang racket
 
-;@descr Ackermann function
+; @desc Ackermann function
 ; 1.(define (f n) (A 0 n))
 ; 2.(define (g n) (A 1 n))
 ; 3.(define (h n) (A 2 n))
-;@return
+; @return
 ; The 1 procedure returns 2*n
 ; The 2 procedure returns 2^n
 ; Let's n = 3
@@ -30,4 +30,3 @@
         ((= y 1) 2)
         (else (A (- x 1)
                  (A x (- y 1))))))
-

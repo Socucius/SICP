@@ -1,4 +1,5 @@
 #lang racket
+
 ; @desc test for applicative/normal order evaluation
 ; so if it is an applicative order evaluation
 ; we can't perform test procedure

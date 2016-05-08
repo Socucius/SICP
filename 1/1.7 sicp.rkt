@@ -1,6 +1,6 @@
 #lang racket
 
-; @descr modificated Newton's method for finding roots
+; @desc modificated Newton's method for finding roots
 ; @param guess[int/float] first approximation
 ; @param x[int/float]     number
 ; @return [int/float]     number's root
@@ -21,4 +21,3 @@
   (/ (+ x y) 2))
 
 (square-iter 0.5 0.2)
-
